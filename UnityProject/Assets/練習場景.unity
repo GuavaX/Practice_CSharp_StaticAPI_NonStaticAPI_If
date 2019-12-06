@@ -183,6 +183,24 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 90077755}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &90077757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90077756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 450e47a8c973de040a87819f4a0435d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 100
+  atk: 0
+  aud: {fileID: 90077758}
+  soundAtk: {fileID: 8300000, guid: b2814898b8005b04dbb2fadf2cf26112, type: 3}
+  player: {fileID: 1284488706}
+  tra: {fileID: 90077760}
 --- !u!82 &90077758
 AudioSource:
   m_ObjectHideFlags: 0
@@ -279,6 +297,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!4 &90077760 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400166, guid: f88c8301226fd194cbbc64e25b20d567,
+    type: 3}
+  m_PrefabInstance: {fileID: 90077755}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &696332135
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,6 +457,24 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1284488704}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1284488706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284488705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a740cd8e302fe4aaeb4cc675bf6211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 100
+  atk: 0
+  aud: {fileID: 1284488707}
+  soundAtk: {fileID: 8300000, guid: e5596bb1fd662e5418d0d33c355a4478, type: 3}
+  zombie: {fileID: 90077757}
+  tra: {fileID: 1284488709}
 --- !u!82 &1284488707
 AudioSource:
   m_ObjectHideFlags: 0
@@ -529,6 +571,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!4 &1284488709 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400166, guid: 8ed86b8ef3190a9429964c02eaa4f31c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1284488704}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1598917165
 GameObject:
   m_ObjectHideFlags: 0
